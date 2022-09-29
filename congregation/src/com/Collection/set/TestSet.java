@@ -19,6 +19,7 @@ public class TestSet {
         set.add(new Person("Jem",10));
         set.add(new Person("Jem",10));
 
+
         Iterator iterator = set.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
